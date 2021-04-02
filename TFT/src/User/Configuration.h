@@ -107,7 +107,7 @@
  * Options: 0: Disabled (RECOMMENDED FOR TFT24)
  *          1: Enabled
  */
-#define MARLIN_MODE_FULLSCREEN 0  // Default: 0
+#define MARLIN_MODE_FULLSCREEN 1  // Default: 0
 
 /**
  * Keep Serial always On (ONLY SUPPORTED ON TFT24 V1.1, TFT35 V3.0, AND TFT28 V3.0)
@@ -117,7 +117,7 @@
  *
  * Options: [0: Disabled, 1: Enabled]
  */
-#define SERIAL_ALWAYS_ON 0  // Default: 0
+#define SERIAL_ALWAYS_ON 1  // Default: 0
 
 /**
  * LCD/Touch Encoder
@@ -381,7 +381,7 @@
  *          3: 30 Seconds,   4: 60 Seconds,     5: 120 Seconds,
  *          6: 300 Seconds,  7: CUSTOM Seconds
  */
-#define DEFAULT_LCD_IDLE_TIMER  0  // Default: 0
+#define DEFAULT_LCD_IDLE_TIMER  120   // Default: 0
 #define LCD_DIM_CUSTOM_SECONDS (10 * 60)  // Custom value in seconds. This will be used if DEFAULT_LCD_IDLE_TIMER
                                           // is set to 7 (CUSTOM Seconds).
 
@@ -408,7 +408,7 @@
  * Toast notification duration (in MilliSeconds)
  * Set the duration for displaying toast notification on top of the screen.
  */
-#define TOAST_DURATION (3 * 1000)  // (MilliSeconds)  1000 MilliSeconds = 1 Second
+#define TOAST_DURATION (5 * 1000)  // (MilliSeconds)  1000 MilliSeconds = 1 Second
 
 /**
  * Notification style for ACK messages
